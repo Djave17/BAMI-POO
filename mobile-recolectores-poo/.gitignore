@@ -1,0 +1,39 @@
+# Gradle cache/local build
+.gradle/
+build/
+*/build/
+
+# Android local files
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# APK/AAB outputs
+*.apk
+*.aab
+*.ap_
+
+# Kotlin/Java
+*.class
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.jks
+*.keystore
+secrets.properties
+.env

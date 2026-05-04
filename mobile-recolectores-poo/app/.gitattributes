@@ -1,0 +1,23 @@
+# Mantener scripts correctamente
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Windows batch
+*.bat text eol=crlf
+
+# Gradle/Kotlin files
+*.gradle text eol=lf
+*.gradle.kts text eol=lf
+*.kt text eol=lf
+*.kts text eol=lf
+*.xml text eol=lf
+*.toml text eol=lf
+*.properties text eol=lf
+
+# Binarios
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
